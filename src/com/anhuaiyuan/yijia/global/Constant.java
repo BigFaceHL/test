@@ -3,8 +3,9 @@ package com.anhuaiyuan.yijia.global;
 import java.io.File;
 
 public class Constant {
+//
 	
-	/** SharedPreferencesÂ·¾¶ */
+	/** SharedPreferencesè·¯å¾„ */
 	public static String SHARED_PATH = "my_shared";
 
 	// cookies
@@ -16,202 +17,202 @@ public class Constant {
 	public static final String ISFIRSTSTART = "isfirstStart";
 	public static final String AUTOLOGIN = "autoLogin";
 	
-	/** Ã½ÌåÎÄ¼ş±£´æÂ·¾¶ */
+	/** åª’ä½“æ–‡ä»¶ä¿å­˜è·¯å¾„ */
 	public static final String videoPath =  File.separator + "video" + File.separator;
 	public static final String audioPath =  File.separator + "audio" + File.separator;
 
 	// index
 	public static final String DEFAULTCITYID = "1001";
-	public static final String DEFAULTCITYNAME = "ÄÏ¾©";
+	public static final String DEFAULTCITYNAME = "å—äº¬";
 	
-	/** Éı¼¶APP ÓÃ android±êÊ¶ */
+	/** å‡çº§APP ç”¨ androidæ ‡è¯† */
 	public static final String ANDROID_CLIENT = "yijia_android_phone_client";
 
-	/** ·şÎñÆ÷µØÖ· */
+	/** æœåŠ¡å™¨åœ°å€ */
 //	public static String SERVER_ADDRESS = "http://121.41.44.28:8081/CenterServer/";
 	public static String SERVER_ADDRESS = "http://192.168.2.42:8080/CenterServer/";
 	
-	/**ÏûÏ¢·şÎñ*/
+	/**æ¶ˆæ¯æœåŠ¡*/
 	public static final String xmppHost = "121.41.44.28";
 //	public final static String xmppHost = "192.168.1.127";
 	public static final int xmppPort = 5222;  
 	
-	/** ÊÇ·ñÔÚÏß*/
+	/** æ˜¯å¦åœ¨çº¿*/
 	public static final String IS_ONLINE_URL = SERVER_ADDRESS + "isOnline.do";
 		
-	// ################½Ó¿ÚÅäÖÃÒÔÏÂ#############################
-	/** »ñÈ¡ÑéÖ¤Âë */
+	// ################æ¥å£é…ç½®ä»¥ä¸‹#############################
+	/** è·å–éªŒè¯ç  */
 	public static final String IDENTIFYCODE_URL = SERVER_ADDRESS + "identifyCode.do";
 
-	/** ÑéÖ¤ÕË»§ */
+	/** éªŒè¯è´¦æˆ· */
 	public static final String VALIDATE_URL = SERVER_ADDRESS + "validate.do";
 	
-	/** ×¢²áÑéÖ¤ */
+	/** æ³¨å†ŒéªŒè¯ */
 	public static final String REGISTER_VALIDATE_URL = SERVER_ADDRESS + "registerValidate.do";
 
-	/** ×¢²á */
+	/** æ³¨å†Œ */
 	public static final String REGISTER_URL = SERVER_ADDRESS + "register.do";
 
-	/** µÇÂ¼ */
+	/** ç™»å½• */
 	public static final String LOGIN_URL = SERVER_ADDRESS + "login.do";
 
-	/** ĞŞ¸ÄÃÜÂë */
+	/** ä¿®æ”¹å¯†ç  */
 	public static final String MODIFY_PASSWORD_URL = SERVER_ADDRESS + "modifyPassword.do";
 
-	/** ÕÒ»ØÃÜÂë */
+	/** æ‰¾å›å¯†ç  */
 	public static final String FIND_PASSWORD = SERVER_ADDRESS + "findPassword.do";
 	
-	/** ÕÒ»ØÃÜÂë ÑéÖ¤*/
+	/** æ‰¾å›å¯†ç  éªŒè¯*/
 	public static final String FIND_PASSWORD_VALIDATE_URL = SERVER_ADDRESS + "findPasswordValidate.do";
 
-	/** ÎÒÊÕ²ØµÄÉÌÆ· */
+	/** æˆ‘æ”¶è—çš„å•†å“ */
 	public static final String FAV_GOODS_URL = SERVER_ADDRESS + "favGoods.do";
 
-	/** ÎÒÊÕ²ØµÄµêÆÌ */
+	/** æˆ‘æ”¶è—çš„åº—é“º */
 	public static final String FAV_SHOPS_URL =  SERVER_ADDRESS + "favShops.do";
 
-	/** Éı¼¶ */
+	/** å‡çº§ */
 	public static final String UPDATE_URL =  SERVER_ADDRESS + "appUpdate.do";
 
-	/** ĞŞ¸Ä¸öÈËĞÅÏ¢ */
+	/** ä¿®æ”¹ä¸ªäººä¿¡æ¯ */
 	public static final String MODIFY_USER_URL =  SERVER_ADDRESS + "modifyUser.do";
 
-	/** ÉÏ´«ÎÄ¼ş fastdfs ftp */
+	/** ä¸Šä¼ æ–‡ä»¶ fastdfs ftp */
 	public static final String FILE_UPLOAD_URL =  SERVER_ADDRESS + "upload.do?type=ftp";
 
-	/** ³ÇÊĞÁĞ±í */
+	/** åŸå¸‚åˆ—è¡¨ */
 	public static final String CITY_LIST_URL =  SERVER_ADDRESS + "cityList.do";
 	
-	/** µØÇøÁĞ±í */
+	/** åœ°åŒºåˆ—è¡¨ */
 	public static String REGION_LIST_URL = SERVER_ADDRESS + "regionList.do";
 	
-	/** Ê¡·İÁĞ±í */
+	/** çœä»½åˆ—è¡¨ */
 	public static String PROVINCE_LIST_URL = SERVER_ADDRESS +"provinceList.do";
 	
-	/** ÉÌÆ·ÁĞ±í */
+	/** å•†å“åˆ—è¡¨ */
 	public static String GOODS_LIST_URL =  SERVER_ADDRESS + "goodsList.do";
 
-	/** ÉÌ¼ÒÁĞ±í */
+	/** å•†å®¶åˆ—è¡¨ */
 	public static String SHOP_LIST_URL =  SERVER_ADDRESS + "shopList.do";
 
-	/** µêÆÌÉÌÆ·ÊıÁ¿²éÑ¯ */
+	/** åº—é“ºå•†å“æ•°é‡æŸ¥è¯¢ */
 	public static String SHOP_GOODS_COUNT_URL =  SERVER_ADDRESS + "shopGoodsCount.do";
 	
-	/**µêÆÌ¶©µ¥ÊıÁ¿*/
+	/**åº—é“ºè®¢å•æ•°é‡*/
 	public static final String SHOP_ORDER_COUNT_URL =  SERVER_ADDRESS + "shopOrderCount.do";
 	
-	/**ÎÒµÄµêÆÌĞÅÏ¢*/
+	/**æˆ‘çš„åº—é“ºä¿¡æ¯*/
 	public static final String SHOP_INFO_URL =  SERVER_ADDRESS + "shopInfo.do";
 	
-	/**bannerÁĞ±í*/
+	/**banneråˆ—è¡¨*/
 	public static final String BANNER_LIST_URL = SERVER_ADDRESS + "bannerList.do";
 	
-	/** AdÁĞ±í */
+	/** Adåˆ—è¡¨ */
 	public static final String AD_LIST_URL =  SERVER_ADDRESS + "adList.do";
 	
-	/**»ñÈ¡µêÆÌÍ¼Æ¬*/
+	/**è·å–åº—é“ºå›¾ç‰‡*/
 	public static final String SHOP_PICTURE_LIST_URL = SERVER_ADDRESS+ "shopPictureList.do";
 	
-	/**Ìí¼ÓµêÆÌÍ¼Æ¬*/
+	/**æ·»åŠ åº—é“ºå›¾ç‰‡*/
 	public static final String ADD_SHOP_PICTURES_URL = SERVER_ADDRESS + "addShopPictures.do";
 	
-	/**É¾³ıµêÆÌÍ¼Æ¬*/
+	/**åˆ é™¤åº—é“ºå›¾ç‰‡*/
 	public static final String DELETE_SHOP_PICTURES_URL = SERVER_ADDRESS + "deleteShopPicture.do";
 	
-	/**¸ù¾İÃû×Ö»ñÈ¡³ÇÊĞĞÅÏ¢*/
+	/**æ ¹æ®åå­—è·å–åŸå¸‚ä¿¡æ¯*/
 	public static final String CITY_DETAIL_URL = SERVER_ADDRESS + "cityDetail.do";
 	
-	/**¸ù¾İµØÇøID»ñµÃÉÌÈ¦ÁĞ±í*/
+	/**æ ¹æ®åœ°åŒºIDè·å¾—å•†åœˆåˆ—è¡¨*/
 	public static final String BUSINESS_AREA_LIST_URL = SERVER_ADDRESS + "businessAreaList.do";
 	
-	/**¸ù¾İµØÇø×é»ñµÃÉÌÈ¦ÁĞ±í*/
+	/**æ ¹æ®åœ°åŒºç»„è·å¾—å•†åœˆåˆ—è¡¨*/
 	public static final String BUSINESS_AREA_LISTS_URL = SERVER_ADDRESS + "businessAreaLists.do";
 	
-	/**²éÑ¯·ÖÀàÁĞ±í*/
+	/**æŸ¥è¯¢åˆ†ç±»åˆ—è¡¨*/
 	public static String CATEGORY_LIST_URL = SERVER_ADDRESS + "categoryList.do";
 	
-	/**²éÑ¯ÉÌÆ·ÏêÇé*/
+	/**æŸ¥è¯¢å•†å“è¯¦æƒ…*/
 	public static String GOODS_DETAIL_URL = SERVER_ADDRESS + "goodsDetail.do";
 		
-	/**²éÑ¯µêÆÌÏêÇé*/
+	/**æŸ¥è¯¢åº—é“ºè¯¦æƒ…*/
 	public static String SHOP_DETAIL_URL = SERVER_ADDRESS + "shopDetail.do";
 	
-	/**Ôö¼ÓÊÕ²Ø*/
+	/**å¢åŠ æ”¶è—*/
 	public static String ADD_FAV_GOODS_URL = SERVER_ADDRESS + "addFavGoods.do";
 	
-	/**É¾³ıÊÕ²Ø*/
+	/**åˆ é™¤æ”¶è—*/
 	public static String DEL_FAV_GOODS_URL = SERVER_ADDRESS + "delFavGoods.do";
 	
-	/**Ôö¼ÓÊÕ²Ø*/
+	/**å¢åŠ æ”¶è—*/
 	public static String ADD_FAV_SHOP_URL = SERVER_ADDRESS + "addFavShop.do";
 	
-	/**É¾³ıÊÕ²Ø*/
+	/**åˆ é™¤æ”¶è—*/
 	public static String DEL_FAV_SHOP_URL = SERVER_ADDRESS + "delFavShop.do";
 	
-	/**Âô¼ÒĞÅÏ¢*/
+	/**å–å®¶ä¿¡æ¯*/
 	public static String SELLER_INFO_URL = SERVER_ADDRESS + "sellerInfo.do";
 	
-	/**Ìá½»¶©µ¥*/
+	/**æäº¤è®¢å•*/
 	public static String ADD_ORDER_URL = SERVER_ADDRESS + "addOrder.do";
 
-	/**ÏûÏ¢ÁĞ±í*/
+	/**æ¶ˆæ¯åˆ—è¡¨*/
 	public static String MESSAGE_LIST_URL = SERVER_ADDRESS + "messageList.do";
 	
-	/**ÏûÏ¢ÁĞ±í*/
+	/**æ¶ˆæ¯åˆ—è¡¨*/
 	public static String CHAT_MESSAGE_DETAIL = SERVER_ADDRESS + "chatMessageDetail.do";
 	
-	/**ÏûÏ¢ÁĞ±í*/
+	/**æ¶ˆæ¯åˆ—è¡¨*/
 	public static String SEND_MESSAGE = SERVER_ADDRESS + "sendMessage.do";
 	
-	/**±£´æÏûÏ¢µ½·şÎñÆ÷*/
+	/**ä¿å­˜æ¶ˆæ¯åˆ°æœåŠ¡å™¨*/
 	public static String MESSAGE_SAVE = SERVER_ADDRESS + "addMessage.do";
 	
-	/**¶©µ¥ÁĞ±í*/
+	/**è®¢å•åˆ—è¡¨*/
 	public static String ORDER_LIST_URL = SERVER_ADDRESS + "orderList.do";
 	
-	/**¶©µ¥ÏêÇé*/
+	/**è®¢å•è¯¦æƒ…*/
 	public static String ORDER_DEATAIL_URL = SERVER_ADDRESS + "orderDetail.do";
 	
-	/**ĞŞ¸ÄÂô¼ÒĞÅÏ¢*/
+	/**ä¿®æ”¹å–å®¶ä¿¡æ¯*/
 	public static String MODIFY_SELLER_URL = SERVER_ADDRESS + "modifySeller.do";
 	
-	/**ĞŞ¸ÄµêÆÌĞÅÏ¢*/
+	/**ä¿®æ”¹åº—é“ºä¿¡æ¯*/
 	public static String MODIFY_SHOP_URL = SERVER_ADDRESS + "modifyShop.do";
 	
-	/**µêÆÌ·şÎñ*/
+	/**åº—é“ºæœåŠ¡*/
 	public static String MODIFY_SHOP_SERVICE_URL = SERVER_ADDRESS + "modifyShopService.do";
 	
-	/**µêÆÌ·şÎñÁĞ±í*/
+	/**åº—é“ºæœåŠ¡åˆ—è¡¨*/
 	public static String SERVICE_ITEM_LIST_URL = SERVER_ADDRESS + "serviceItemList.do";
 	
-	/** ĞŞ¸ÄÉÌÆ· modifyGoods */
+	/** ä¿®æ”¹å•†å“ modifyGoods */
 	public final static String MODIFY_GOODS_URL = SERVER_ADDRESS + "modifyGoods.do";
 	
-	/** É¾³ıÉÌÆ· deleteGoods */
+	/** åˆ é™¤å•†å“ deleteGoods */
 	public final static String DELETE_GOODS_URL = SERVER_ADDRESS + "deleteGoods.do";
 	
-	/** ĞŞ¸ÄÉÌÆ·×´Ì¬ modifyGoodsStatus */
+	/** ä¿®æ”¹å•†å“çŠ¶æ€ modifyGoodsStatus */
 	public final static String MODIFY_GOODS_STATUS_URL = SERVER_ADDRESS + "modifyGoodsStatus.do";
 	
-	/** Ìí¼ÓÉÌÆ· */
+	/** æ·»åŠ å•†å“ */
 	public final static String ADD_GOODS_URL = SERVER_ADDRESS + "addGoods.do";
 	
-	/**»ñÈ¡ÓÃ»§ĞÅÏ¢ */
+	/**è·å–ç”¨æˆ·ä¿¡æ¯ */
 	public final static String GET_USERINFO = SERVER_ADDRESS + "getUser.do";
 	
-	/** ×¢ÏúÓÃ»§ */
+	/** æ³¨é”€ç”¨æˆ· */
 	public static final String QUIT_USER_URL =  SERVER_ADDRESS + "quit.do";
 	
 	
-	/** ×¢ÏúÓÃ»§ */
+	/** æ³¨é”€ç”¨æˆ· */
 	public static final String ORDER_MODIFY=  SERVER_ADDRESS + "modifyOrder.do";
 	
 	
 		
-	/* ################½Ó¿ÚÅäÖÃÒÔÉÏ############################# */
+	/* ################æ¥å£é…ç½®ä»¥ä¸Š############################# */
 	
 	/**
-	 * URL ²¹Íê¾À´í
+	 * URL è¡¥å®Œçº é”™
 	 * @return
 	 */
 	public static String urlFillFEC(String url){
